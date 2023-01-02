@@ -1,0 +1,25 @@
+{
+    // Text editor
+    "editor.accessibilitySupport": "off",
+    "editor.dragAndDrop": false,
+    "editor.guides.bracketPairs": "active",
+    "editor.linkedEditing": true,
+    "editor.renderWhitespace": "all",
+    // Font
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    // Formatting
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    // Files
+    "files.autoSave": "onFocusChange",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Workbench
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+
+    // Application
+    "telemetry.telemetryLevel": "off"
+}
