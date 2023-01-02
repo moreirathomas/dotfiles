@@ -1,0 +1,10 @@
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension GitHub.copilot
+code --install-extension golang.go
+code --install-extension mhutchie.git-graph
+code --install-extension monokai.theme-monokai-pro-vscode
+code --install-extension redhat.vscode-yaml
+code --install-extension wayou.vscode-todo-highlight
