@@ -8,3 +8,4 @@ code --install-extension mhutchie.git-graph
 code --install-extension monokai.theme-monokai-pro-vscode
 code --install-extension redhat.vscode-yaml
 code --install-extension wayou.vscode-todo-highlight
+code --install-extension yzhang.markdown-all-in-one
