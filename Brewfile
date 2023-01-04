@@ -1,9 +1,12 @@
 # Taps
+tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/bundle"
+tap "homebrew/core"
 
 # Binaries
+brew "bat"
+brew "coreutils"
 # brew "dockutil" # https://github.com/kcrawford/dockutil/issues/127
 brew "gh"
 brew "jq"
@@ -15,6 +18,7 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 # Apps
+cask "chromium"
 cask "discord"
 cask "firefox"
 cask "google-chrome"
