@@ -9,6 +9,7 @@ brew "bat"
 brew "coreutils"
 # brew "dockutil" # https://github.com/kcrawford/dockutil/issues/127
 brew "gh"
+brew "git"
 brew "jq"
 brew "mas"
 brew "starship"
@@ -18,7 +19,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 # Apps
-cask "chromium"
 cask "discord"
 cask "firefox"
 cask "google-chrome"
