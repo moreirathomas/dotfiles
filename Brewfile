@@ -20,9 +20,11 @@ brew "zsh-syntax-highlighting"
 
 # Apps
 cask "discord"
+cask "docker"
 cask "firefox"
 cask "google-chrome"
 cask "iterm2"
+cask "slack"
 cask "spotify"
 cask "the-unarchiver"
 cask "visual-studio-code"
