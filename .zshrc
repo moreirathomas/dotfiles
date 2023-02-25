@@ -56,5 +56,8 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+# Add binaries installed with `go install` to PATH - https://go.dev/doc/gopath_code
+export PATH=$PATH:$(go env GOPATH)/bin
+
 # Setup shell to use Starshiph.
 eval "$(starship init zsh)"
