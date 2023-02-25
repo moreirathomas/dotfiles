@@ -28,6 +28,7 @@ cask "slack"
 cask "spotify"
 cask "the-unarchiver"
 cask "visual-studio-code"
+cask "warp"
 
 # Fonts
 cask "font-fira-code"
