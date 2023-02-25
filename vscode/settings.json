@@ -1,25 +1,58 @@
 {
-    // Text editor
-    "editor.accessibilitySupport": "off",
-    "editor.dragAndDrop": false,
-    "editor.guides.bracketPairs": "active",
-    "editor.linkedEditing": true,
-    "editor.renderWhitespace": "all",
-    // Font
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    // Formatting
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "modifications",
-    // Files
-    "files.autoSave": "onFocusChange",
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-
-    // Workbench
-    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
-    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
-
-    // Application
-    "telemetry.telemetryLevel": "off"
+  // Text editor
+  "editor.accessibilitySupport": "off",
+  "editor.dragAndDrop": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.linkedEditing": true,
+  "editor.renderWhitespace": "all",
+  // Font
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // Formatting
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+  // Suggestions
+  "editor.inlineSuggest.enabled": true,
+  // Files
+  "files.autoSave": "onFocusChange",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  // Workbench
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "punctuation.definition.block.tag.jsdoc",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  // Application
+  "telemetry.telemetryLevel": "off"
 }
