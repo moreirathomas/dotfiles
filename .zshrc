@@ -62,5 +62,14 @@ load-nvmrc
 # Add binaries installed with `go install` to PATH - https://go.dev/doc/gopath_code
 export PATH=$PATH:$(go env GOPATH)/bin
 
+# bun completions
+[ -s "/Users/moreirathomas/.bun/_bun" ] && source "/Users/moreirathomas/.bun/_bun"
+
+# fzf completions
+eval "$(fzf --zsh)"
+
+# Setup Zoxide
+eval "$(zoxide init zsh)"
+
 # Setup shell to use Starshiph.
 eval "$(starship init zsh)"

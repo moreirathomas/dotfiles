@@ -6,15 +6,21 @@ tap "homebrew/core"
 
 # Binaries
 brew "bat"
+brew "bun"
 brew "coreutils"
+brew "deno"
+brew "fzf"
 # brew "dockutil" # https://github.com/kcrawford/dockutil/issues/127
 brew "gh"
 brew "git"
 brew "jq"
 brew "mas"
+brew "node"
+brew "pnpm"
 brew "starship"
 brew "thefuck"
 brew "tree"
+brew "zoxide"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
