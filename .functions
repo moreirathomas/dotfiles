@@ -1,0 +1,4 @@
+git_nuke_local_tags() {
+    git tag -l | xargs git tag -d
+    git fetch --tags
+}
